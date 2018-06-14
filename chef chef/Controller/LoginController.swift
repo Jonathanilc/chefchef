@@ -10,7 +10,7 @@ import UIKit
 
 import Firebase
 import TextFieldEffects
-import SwiftyButton
+
 
 
 extension UITextField {
@@ -36,7 +36,7 @@ class LoginController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     
     
-    @IBOutlet weak var loginbutton: PressableButton!
+    @IBOutlet weak var loginbutton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,11 +48,7 @@ class LoginController: UIViewController {
         
         
         
-        loginbutton.colors = .init(
-            button: .init(red: 176/255, green: 66/255, blue: 244/255, alpha: 1),
-            shadow: .purple)
-        loginbutton.shadowHeight = 2
-        loginbutton.cornerRadius = 2
+        
         
 
         

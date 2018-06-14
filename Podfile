@@ -14,7 +14,7 @@ target 'chef chef' do
     pod 'Alamofire'
     pod 'AlamofireImage'
     pod 'TextFieldEffects'
-    pod 'SwiftyButton'
+    
     
     
     

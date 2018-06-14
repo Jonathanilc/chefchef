@@ -79,7 +79,6 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
-  - SwiftyButton (0.8.0)
   - TextFieldEffects (1.4.0)
   - Toucan (1.0.0)
 
@@ -94,7 +93,6 @@ DEPENDENCIES:
   - Firebase/Core (< 5)
   - Firebase/Database (< 5)
   - Firebase/Storage (< 5)
-  - SwiftyButton
   - TextFieldEffects
   - Toucan
 
@@ -120,7 +118,6 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
-    - SwiftyButton
     - TextFieldEffects
     - Toucan
 
@@ -145,10 +142,9 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  SwiftyButton: 093e3fe2becf3ae31c0f6c1c6987b79a93fb3ecb
   TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
   Toucan: 61867fb10948c02e9804280a95eb183e98eac97a
 
-PODFILE CHECKSUM: 914d0d4ab82fce11d823b4dbd42b54560a0125bf
+PODFILE CHECKSUM: f45f541f88beba9426527cd1ab83c454f38c1f22
 
 COCOAPODS: 1.5.2
