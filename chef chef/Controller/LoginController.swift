@@ -9,7 +9,7 @@
 import UIKit
 
 import Firebase
-import TextFieldEffects
+
 
 
 
@@ -40,11 +40,7 @@ class LoginController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        emailTextField.setPadding()
-        emailTextField.setBottomBorder()
         
-        passwordTextField.setBottomBorder()
-        passwordTextField.setPadding()
         
         
         
