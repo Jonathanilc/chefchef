@@ -107,6 +107,7 @@ class RecipeListController: UIViewController, UITableViewDelegate, UITableViewDa
             post.desciption = snapshotValue["Description"]!
             post.author = snapshotValue["Author"]!
             post.image = snapshotValue["Image"]!
+            post.content = snapshotValue["Content"]!
             
             self.postsArray.append(post)
             self.configureTableView()
