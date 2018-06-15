@@ -95,6 +95,7 @@ class RecipeListController: UIViewController, UITableViewDelegate, UITableViewDa
 
     //MARK: - retrieve data from firebase
     func retrievePosts() {
+        guard (Auth.auth().currentUser?.uid) != nil else { return }
         let postDB = Database.database().reference().child("Messages")
         
         postDB.observe(.childAdded) { (snapshot) in
